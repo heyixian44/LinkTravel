@@ -70,6 +70,28 @@ $(function() {
 		}
 		var allLatlng = [];
 
+		//---------Zero-----------
+		myLatlng = new google.maps.LatLng(57.047752, 9.922172);	
+
+		allMarkers = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			icon: 'http://google-maps-icons.googlecode.com/files/sailboat-tourism.png',
+			title: "You Postion",
+			html: 
+					'<div class="markerPop">' +
+					'<h1>' + "Your current postion" + '</h1>' + //substring removes distance from title
+					'</div>'
+		});
+
+		allLatlng.push(myLatlng);
+		//Put the marketrs in an array
+		tempMarkerHolder.push(allMarkers);
+
+		google.maps.event.addListener(allMarkers, 'click', function () {
+			infowindow.setContent(this.html);
+			infowindow.open(map, this);
+		});
 		//---------first-----------
 		myLatlng = new google.maps.LatLng(57.048455, 9.927923);						  
 		allMarkers = new google.maps.Marker({

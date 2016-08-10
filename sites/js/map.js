@@ -76,7 +76,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
-			icon: 'http://google-maps-icons.googlecode.com/files/sailboat-tourism.png',
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/man.png',
 			title: "You Postion",
 			html: 
 					'<div class="markerPop">' +
@@ -239,6 +239,28 @@ $(function() {
 		}
 		var allLatlng = [];
 
+		//---------Zero-----------
+		myLatlng = new google.maps.LatLng(57.047752, 9.922172);	
+
+		allMarkers = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/man.png',
+			title: "You Postion",
+			html: 
+					'<div class="markerPop">' +
+					'<h1>' + "Your current postion" + '</h1>' + //substring removes distance from title
+					'</div>'
+		});
+
+		allLatlng.push(myLatlng);
+		//Put the marketrs in an array
+		tempMarkerHolder.push(allMarkers);
+
+		google.maps.event.addListener(allMarkers, 'click', function () {
+			infowindow.setContent(this.html);
+			infowindow.open(map, this);
+		});
 		//---------first-----------
 		myLatlng = new google.maps.LatLng(57.047151, 9.921502);						  
 		allMarkers = new google.maps.Marker({
@@ -386,6 +408,28 @@ $(function() {
 			tempMarkerHolder[i].setMap(null);
 		}
 		var allLatlng = [];
+		//---------Zero-----------
+		myLatlng = new google.maps.LatLng(57.047752, 9.922172);	
+
+		allMarkers = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/man.png',
+			title: "You Postion",
+			html: 
+					'<div class="markerPop">' +
+					'<h1>' + "Your current postion" + '</h1>' + //substring removes distance from title
+					'</div>'
+		});
+
+		allLatlng.push(myLatlng);
+		//Put the marketrs in an array
+		tempMarkerHolder.push(allMarkers);
+
+		google.maps.event.addListener(allMarkers, 'click', function () {
+			infowindow.setContent(this.html);
+			infowindow.open(map, this);
+		});		
 		//---------first-----------
 		myLatlng = new google.maps.LatLng(57.003014, 9.965501);						  
 		allMarkers = new google.maps.Marker({
@@ -536,6 +580,28 @@ $(function() {
 			tempMarkerHolder[i].setMap(null);
 		}
 		var allLatlng = [];
+		//---------Zero-----------
+		myLatlng = new google.maps.LatLng(57.047752, 9.922172);	
+
+		allMarkers = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/man.png',
+			title: "You Postion",
+			html: 
+					'<div class="markerPop">' +
+					'<h1>' + "Your current postion" + '</h1>' + //substring removes distance from title
+					'</div>'
+		});
+
+		allLatlng.push(myLatlng);
+		//Put the marketrs in an array
+		tempMarkerHolder.push(allMarkers);
+
+		google.maps.event.addListener(allMarkers, 'click', function () {
+			infowindow.setContent(this.html);
+			infowindow.open(map, this);
+		});		
 		//---------first-----------
 		myLatlng = new google.maps.LatLng(57.049943, 9.92204);						  
 		allMarkers = new google.maps.Marker({

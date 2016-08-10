@@ -98,6 +98,7 @@ $(function() {
 			position: myLatlng,
 			map: map,
 			title: "First Hotel Aalborg",
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/hotel.png',
 			html: 
 					'<div class="markerPop">' +
 					'<h1>' + "First Hotel Aalborg" + '</h1>' + //substring removes distance from title
@@ -123,6 +124,7 @@ $(function() {
 			position: myLatlng,
 			map: map,
 			title: "Hotel Jomfru Ane",
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/hotel.png',
 			html: 
 					'<div class="markerPop">' +
 					'<h1>' + "Hotel Jomfru Ane" + '</h1>' + //substring removes distance from title
@@ -146,6 +148,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/hotel.png',
 			title: "Phønix Hotel",
 			html: 
 					'<div class="markerPop">' +
@@ -170,6 +173,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/hotel.png',
 			title: "Hotel Aalborg",
 			html: 
 					'<div class="markerPop">' +
@@ -194,6 +198,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/hotel.png',
 			title: "BEST WESTERN Prinsen Hotel",
 			html: 
 					'<div class="markerPop">' +
@@ -266,6 +271,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/shopping.png',
 			title: "H&M",
 			html: 
 					'<div class="markerPop">' +
@@ -291,6 +297,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/shopping.png',
 			title: "The Body Shop Aalborg",
 			html: 
 					'<div class="markerPop">' +
@@ -316,6 +323,7 @@ $(function() {
 			position: myLatlng,
 			map: map,
 			title: "Monki",
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/shopping.png',
 			html: 
 					'<div class="markerPop">' +
 					'<h1>' + "Monki" + '</h1>' + //substring removes distance from title
@@ -339,6 +347,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/shopping.png',
 			title: "Friis",
 			html: 
 					'<div class="markerPop">' +
@@ -363,6 +372,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/shopping.png',
 			title: "Tiger Of Sweden",
 			html: 
 					'<div class="markerPop">' +
@@ -435,6 +445,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/spot.png',
 			title: "Østerådalen",
 			html: 
 					'<div class="markerPop">' +
@@ -460,6 +471,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/spot.png',
 			title: "Nibe Camping - Sølyst ved Aalborg / Bed and Breakfast",
 			html: 
 					'<div class="markerPop">' +
@@ -484,6 +496,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/spot.png',
 			title: "Lille Vildmosecentret",
 			html: 
 					'<div class="markerPop">' +
@@ -508,6 +521,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/spot.png',
 			title: "Henrik Qvist",
 			html: 
 					'<div class="markerPop">' +
@@ -532,6 +546,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/spot.png',
 			title: "Bålplads inde i skoven",
 			html: 
 					'<div class="markerPop">' +
@@ -607,6 +622,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/restaurant.png',
 			title: "Restaurant Flammen Aalborg",
 			html: 
 					'<div class="markerPop">' +
@@ -632,6 +648,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/restaurant.png',
 			title: "Prinses Juliana",
 			html: 
 					'<div class="markerPop">' +
@@ -656,6 +673,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/restaurant.png',
 			title: "Restaurant Fusion",
 			html: 
 					'<div class="markerPop">' +
@@ -680,6 +698,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/restaurant.png',
 			title: "Café Luna",
 			html: 
 					'<div class="markerPop">' +
@@ -704,6 +723,7 @@ $(function() {
 		allMarkers = new google.maps.Marker({
 			position: myLatlng,
 			map: map,
+			icon: 'https://heyixian44.github.io/LinkTravel/sites/images/restaurant.png',
 			title: "China Restaurant",
 			html: 
 					'<div class="markerPop">' +
